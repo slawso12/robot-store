@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mr Robot | Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript">
+  </script>
+</head>
+  
+<body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img src="images/logo.jpg" />
+            </a>
+            <span id="headername">Mr. Robot</span>
+            <input type="text" id="myInput" class="searchbox" placeholder="Search our store" onkeyup="myFunction()">
+        </div>
+
+        <nav class="backgroundgradient">
+            <ul id="myUL">
+              <li><a class="navlink" href="index.html">Home</a></li>
+              <li><a class="navlink" href="robots.html">Robots</a></li>
+              <li><a class="navlink" href="computers.html">Hardware</a></li>
+              <li><a class="navlink" href="contact.html">Contact</a></li>
+              <li><a class="navlink" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="welcomeimage">
+      <img class="mango" src="images/Mr.-Robot-Welcome.png" height="400px" alt="About us">
+    </div>
+
+    <form id="contactForm">
+  <fieldset>
+    <div>
+      <div class="MyDiv" style="cursor: pointer;">
+        <legend> Enter your Contact info below:</legend>
+      </div>
+      
+      <div class="MyDiv" style="cursor: pointer;">
+        <p class="MyDiv" style="cursor: pointer;">
+          <label for="fullname">Full Name:</label>
+          <input type="text" name="fullname" id="fullname">
+        </p>
+      </div>
+      
+      <p class="MyDiv" style="cursor: pointer;">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"> 
+      </p>
+      
+      <p class="MyDiv" style="cursor: pointer;">
+        <label for="yloc">Location:</label>
+         <select name id:"yloc">
+           <option value="0">Moon</option>
+           <option value="1">Earth</option>
+         </select>
+        </p>
+        <p class="MyDiv" style="cursor: pointer;">
+          <label for="quest">Your Question</label>
+          <br>
+          <textarea name="quest" id cols="50" rows="10" maxlength="500">
+          </textarea>
+        </p>
+</div>
+</fieldset>
+  
+<p class="MyDiv">
+  <button id="btnSendInfo" class="submitbutton">Send Info</button>
+  </p>
+</form>
+<footer>
+  <p>Our address is </p>
+  <address>1011 Crater Ave, Moon City: THE MOON</address>
+  <p class="textcontent">
+    "All site contents is copyright" 
+    <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a>
+  </p>
+  
+  <p class="smalltext">"This page was generated on" 
+    <time>09:25:04.123</time>
+    "."
+  </p>
+</footer>
+   
+   <script src="script.js"></script>
+    
+
+</body>
+</html>

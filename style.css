@@ -1,0 +1,175 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+#contactform{
+  padding-left:25%;
+}
+#email{
+  background-color:black;
+  color:white;
+}
+.fields{
+  border:10px;
+  padding:2px;
+  border-style:solid;
+  background-color:grey;
+  list-style-type:none;
+  color:white;
+  border-color:white;
+}
+fieldset{
+  background-color:white;
+
+}
+footer{
+   border: 10px;
+   font-family:monospace;
+   padding:2px;
+   border-style: solid;
+   border-color:white;
+   background-color:grey;
+}
+#fullname{
+  background-color:black;
+  color:white;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+h4 {
+  font-family: tahoma;
+  float: right;
+}
+
+#headername{
+    font-size:5em;
+    color:white;
+    padding-left: 25%;
+  }
+
+  img{
+    width: 75px; 
+    height: 75zpx;
+}
+#imgrobo2{
+    float: right;
+    width: 150px; 
+    height: 250px;
+}
+#imgrobo3{
+    float:right;
+    width: 150px; 
+    height: 200px; 
+}
+.kiwi{
+  width: 100%; 
+  height: 325px;
+
+}
+
+label {
+    cursor: default;
+}
+
+.lorem{
+    column-count: 2;
+    
+    }
+legend{
+  font-size:40px;
+  padding-left: 37%;
+  color: grey;
+}
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color: #999;
+}
+
+.mango{
+  width: 100%; 
+  height: 325px;
+  
+}
+.MyDiv:hover{
+  background-color: yellow;
+
+}
+p {
+    text-align: auto;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+.pic1{
+ width:100px;
+ height:100px;
+}
+
+.pineapple{
+    width:50%;
+    height:350px;    
+}
+
+strong{
+  padding-left: 35%;
+  font-size:25px;
+}
+
+.searchbox{
+  float:right;
+}
+.smalltext{
+  float:right;
+}
+textarea{
+  background-color:black;
+  color:white;
+}
+.textcontent{
+float:inherit;
+}
+.tinman{
+    width: 40%;
+    height:350px;
+    float: right;
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#two {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#welcomeimage{
+  padding-left: none;
+
+}
